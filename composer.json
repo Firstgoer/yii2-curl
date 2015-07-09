@@ -22,7 +22,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Curl": "lib/"
+      "Curl\\": "lib/"
     }
   }
 }
