@@ -13,7 +13,7 @@
  *
  */
 
-namespace Firstgoer\Yii2Curl;
+namespace firstgoer\yii2\curl;
 
 use Yii;
 use yii\web\HttpException;
@@ -21,7 +21,7 @@ use yii\web\HttpException;
 /**
  * cURL class
  */
-class Curl
+class CurlComponent
 {
 
 	/**

@@ -2,7 +2,7 @@
   "name": "firstgoer/yii2-curl",
   "description": "cURL extension with RESTful support for Yii2",
   "type": "yii2-extension",
-  "url": "git://github.com/Firstgoer/yii2-curl.git",
+  "homepage": "https://github.com/Firstgoer/yii2-curl",
   "keywords": [
     "yii2",
     "extension",
@@ -22,7 +22,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Firstgoer\\Yii2Curl\\": "lib"
+      "firstgoer\\yii2\\curl\\": ""
     }
   }
 }
