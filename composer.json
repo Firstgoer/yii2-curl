@@ -2,7 +2,7 @@
   "name": "firstgoer/yii2-curl",
   "description": "cURL extension with RESTful support for Yii2",
   "type": "yii2-extension",
-  "url": "",
+  "url": "git://github.com/Firstgoer/yii2-curl.git",
   "keywords": [
     "yii2",
     "extension",
