@@ -1,0 +1,28 @@
+{
+  "name": "firstgoer/yii2-curl",
+  "description": "cURL extension with RESTful support for Yii2",
+  "type": "yii2-extension",
+  "url": "",
+  "keywords": [
+    "yii2",
+    "extension",
+    "curl",
+    "RESTful"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Eugen Ivanov",
+      "email": "firstgoer.ru"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "yiisoft/yii2": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "firstgoer\\yii2\\curl\\": ""
+    }
+  }
+}
