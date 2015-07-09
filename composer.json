@@ -21,8 +21,6 @@
     "yiisoft/yii2": "*"
   },
   "autoload": {
-    "psr-4": {
-      "firstgoer\\yii2\\curl\\": ""
-    }
+    "files":["lib/CurlComponent.php","lib/CurlResponse.php"]
   }
 }

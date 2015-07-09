@@ -1,6 +1,6 @@
 <?php
 
-namespace firstgoer\yii2\curl;
+namespace Firstgoer;
 /**
  * Parses the response from a Curl request into an object containing
  * the response body and an associative array of headers
