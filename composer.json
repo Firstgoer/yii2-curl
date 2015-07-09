@@ -22,8 +22,7 @@
   },
   "autoload": {
     "psr-4": {
-      "firstgoer\\Curl\\": "lib/",
-      "firstgoer\\CurlResponse\\": "lib/"
+      "Firstgoer\\Yii2Curl\\": "lib"
     }
   }
 }
