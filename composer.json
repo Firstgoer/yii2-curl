@@ -22,7 +22,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Curl\\": "lib/"
+      "yii2\\Curl\\": "lib/"
     }
   }
 }

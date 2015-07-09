@@ -1,5 +1,5 @@
 <?php
-namespace firstgoer\yii2\curl;
+namespace yii2\Curl;
 
 /**
  * Parses the response from a Curl request into an object containing

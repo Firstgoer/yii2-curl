@@ -13,7 +13,7 @@
  *
  */
 
-namespace firstgoer\yii2\curl;
+namespace yii2\Curl;
 
 use Yii;
 use yii\web\HttpException;
