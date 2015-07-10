@@ -74,6 +74,8 @@ class CurlComponent
 	 **/
 	protected $request;
 
+	private $getheaders;
+
 	/**
 	 * Stores the HTTP auth credentials
 	 *
@@ -94,6 +96,7 @@ class CurlComponent
 		$this->cookie_file = dirname(__FILE__).DIRECTORY_SEPARATOR.'curl_cookie.txt';
 		$this->user_agent  = isset($_SERVER['HTTP_USER_AGENT']) ? $_SERVER['HTTP_USER_AGENT'] :
 			'Curl/PHP '.PHP_VERSION;
+		$this->getheaders = false;
 	}
 
 	/**
@@ -214,7 +217,11 @@ class CurlComponent
 
 		curl_close($this->request);
 
-		return $response;
+		return $this->getheaders ? $response : $response->body;
+	}
+
+	function returnHeaders($value){
+		$this->getheaders = $value;
 	}
 
 	/**
