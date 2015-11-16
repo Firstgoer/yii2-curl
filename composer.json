@@ -7,7 +7,6 @@
     "yii2",
     "extension",
     "curl",
-    "RESTful"
   ],
   "license": "MIT",
   "authors": [
