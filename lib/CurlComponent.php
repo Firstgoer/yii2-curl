@@ -13,7 +13,7 @@
  *
  */
 
-namespace Firstgoer;
+namespace firstgoer;
 
 use Yii;
 use yii\web\HttpException;
@@ -155,7 +155,7 @@ class CurlComponent
 	 * @param array|string $vars
 	 * @param null         $enctype
 	 *
-	 * @return bool|\firstgoer\yii2\curl\CurlResponse
+	 * @return bool|\firstgoer\CurlResponse
 	 */
 	function post($url, $vars = array(), $enctype = null)
 	{
@@ -187,7 +187,7 @@ class CurlComponent
 	 * @param array|string $vars
 	 * @param null         $enctype
 	 *
-	 * @return bool|\firstgoer\yii2\curl\CurlResponse
+	 * @return bool|\firstgoer\CurlResponse
 	 * @throws \yii\web\HttpException
 	 */
 	function request($method, $url, $vars = array(), $enctype = null)
